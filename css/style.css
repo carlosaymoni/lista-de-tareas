@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor {
+    width: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 10px 30px -10px rgba(0,0,0,.3);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,.3);
+    margin: 50px auto;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.inputs {
+    margin: 30px auto;
+    width: 400px;
+    text-align: center;
+}
+
+#input {
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+}
+
+.inputs button {
+    height: 30px;
+    width: 70px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addtask {
+    background-color: green;
+    border-color: green;
+}
+
+#offtask {
+    background-color: red;
+    border-color: red;
+}
+
+.lista-item {
+    background: linear-gradient(#fff , #a5a5a5);
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.btnOffTask {
+    color: white;
+    background-color: red;
+    border-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#text-end {
+    text-align: center;
+}
